@@ -1,6 +1,6 @@
 const inputField = document.getElementById("input");
-const result = document.querySelector ("H2");
+const result = document.querySelector ("h2");
 inputField.addEventListener ("input", function (){
-    const inputText = inputField.nodeValue;
+    const inputText = inputField.value;
     result.innerHTML = inputText;
 });
